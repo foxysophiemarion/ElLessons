@@ -1,10 +1,10 @@
-﻿Console.WriteLine("Введите два числа:");
+﻿Console.WriteLine("Введите два числа, программа проверит, является ли первое квадратом второго");
 int num1 = int.Parse(Console.ReadLine());
 int num2 = int.Parse(Console.ReadLine());
 
-double squareRoot = Math.Sqrt(num2); // вычисляем корень квадратный из второго числа
+int result = num2 * num2;
 
-if ((squareRoot * squareRoot == num2) && (squareRoot == num1)) //сравниваем квадратный корень второго числа и первое число
+if (result == num1)
 {
 	Console.WriteLine(num1 + " является квадратом числа " + num2);
 }
