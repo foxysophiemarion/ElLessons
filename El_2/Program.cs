@@ -1,30 +1,35 @@
 ﻿Console.WriteLine("Введите номер дня недели (от 1 до 7):");
-int dayNumber = int.Parse(Console.ReadLine());
-
-switch (dayNumber)
+int dayNumber = int.Parse(Console.ReadLine()!);
+if (dayNumber == 1)
 {
-	case 1:
-		Console.WriteLine("Понедельник");
-		break;
-	case 2:
-		Console.WriteLine("Вторник");
-		break;
-	case 3:
-		Console.WriteLine("Среда");
-		break;
-	case 4:
-		Console.WriteLine("Четверг");
-		break;
-	case 5:
-		Console.WriteLine("Пятница");
-		break;
-	case 6:
-		Console.WriteLine("Суббота");
-		break;
-	case 7:
-		Console.WriteLine("Воскресенье");
-		break;
-	default:
-		Console.WriteLine("Ошибка ввода. Введите число от 1 до 7.");
-		break;
+	Console.WriteLine("Понедельник");
 }
+else if (dayNumber == 2)
+{
+	Console.WriteLine("Вторник");
+}
+else if (dayNumber == 3)
+{
+	Console.WriteLine("Среда");
+}
+else if (dayNumber == 4)
+{
+	Console.WriteLine("Четверг");
+}
+else if (dayNumber == 5)
+{
+	Console.WriteLine("Пятница");
+}
+else if (dayNumber == 6)
+{
+	Console.WriteLine("Суббота");
+}
+else if (dayNumber == 7)
+{
+	Console.WriteLine("Воскресенье");
+}
+else
+{
+	Console.WriteLine("Не является днем недели");
+}
+
