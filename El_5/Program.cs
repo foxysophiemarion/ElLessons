@@ -45,7 +45,7 @@ int firstDigit1 = FindFirstDigit(number1);
 int secondDigit1 = FindSecondDigit(number1);
 FindLargestDigit(number1, firstDigit1, secondDigit1); //Развернутый способ (МОЖНО ОБРАТИТЬСЯ К ПЕРЕМЕННЫМ)
 
-int number2 = new Random().Next(-100, 10);
+int number2 = new Random().Next(-80, 10);
 int firstDigit2 = FindFirstDigit(number2);
 int secondDigit2 = FindSecondDigit(number2);
 FindLargestDigit(number2, firstDigit2, secondDigit2); //Развернутый способ (МОЖНО ОБРАТИТЬСЯ К ПЕРЕМЕННЫМ)
