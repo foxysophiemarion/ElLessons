@@ -30,7 +30,7 @@ void FindQuarter(int num)
 		Console.WriteLine("x>0, y<0");
 	}
 
-	else
+	if (num < 1 || num > 4)
 	{
 		Console.WriteLine("Недопустимый номер четверти.");
 	}
