@@ -3,6 +3,11 @@ int x1 = Prompt("Введите координату X: ");
 int y1 = Prompt("Введите координату Y: ");
 FindCoordinate(x1, y1);
 
+int x2 = Prompt("Введите координату X: ");
+int y2 = Prompt("Введите координату Y: ");
+FindCoordinate(x2, y2);
+
+
 
 int Prompt(string message)
 {
