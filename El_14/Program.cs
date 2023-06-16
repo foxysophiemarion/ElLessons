@@ -11,7 +11,7 @@ int number = Prompt("Введите число: ");
 int Prompt(string msg)
 {
 	Console.WriteLine(msg);
-	int number = int.Parse(Console.ReadLine());
+	int number = int.Parse(Console.ReadLine()!);
 	return number;
 }
 
